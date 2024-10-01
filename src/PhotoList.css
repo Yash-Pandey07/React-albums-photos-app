@@ -1,0 +1,46 @@
+/* Style for the back button */
+button {
+    background-color: #008CBA;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #005f73;
+  }
+  
+  /* Grid layout to display 3 images per row */
+  .photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 images per row */
+    gap: 15px; /* Space between the grid items */
+    margin-top: 20px;
+  }
+  
+  /* Each photo container */
+  .photo-item {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Image styling */
+  .photo-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  /* Style for image title */
+  .photo-item p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+  }
+  
